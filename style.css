@@ -1,0 +1,139 @@
+* {
+    background: white;
+    font-family: 'Inter', sans-serif;
+    font-weight:800;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logoAlura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    }
+
+.text-area{
+    border: none;
+    color: #0A3871;
+    margin-top: 50px;
+    text-transform: lowercase;
+}
+
+::placeholder { color:#0A3871; }
+    .text-area:focus {
+        outline: none;
+    }
+
+    .mensagem {
+        background: white;
+        background-image: url(./imagens/boneco.png);
+        background-repeat: no-repeat;
+        background-position: 50%;
+        border: none;
+        border-radius: 24px;
+        color: #0A3871;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.88);
+        margin-left: 98px;
+        margin-top: 20px;
+        padding-left: 20px;
+        position: center;
+        
+    }
+
+    .mensagem:focus {
+        outline: none;
+    }
+    
+
+    .btn-encriptar {
+        width:  328px;
+        height: 67px;
+
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 19px;
+        text-align: center;
+        color: white;
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+        border-radius: 28px;
+        background-color: #0A3871;
+        
+    }
+
+    .btn-desencripitar{
+        width:  328px;
+        height: 67px;
+
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 19px;
+        text-align: center;
+        color: #0A3871;
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+        border-radius: 28px;
+    }
+    .informacao {
+    
+        width: auto;
+        height: 40px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 150%;
+        color: #495057;
+        opacity: 0.8;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        font-size: 13px;
+    margin: 20px;
+}
+    
+
+    
+
+    .botoes {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+        width: 310px;
+        height: 67px;
+        border-radius: 28px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        top: 400;
+       
+        
+    }
+
+    .cabecario {
+        font-size: 13px;
+        margin: 20px;
+        
+    }
+    
+    
+
+    
+
+    
+
